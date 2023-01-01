@@ -6,7 +6,15 @@ setup(
     description='',
     packages=find_packages(),
     install_requires=[
+        'tqdm',
         'torch',
         'numpy',
+        'opencv-python',
+        'imageio',
+        'Pillow',
+        'tables',
+        'torchvision',
+        'tensorboardX',
+        'matplotlib'
     ],
 )
